@@ -12,10 +12,14 @@ body{
   width: 50%;
   padding: 0.5rem;  
   margin: 1rem;
-  box-shadow: 8px 2px 5px #898989 ;
-  
+
+
   border: #898989;
 } 
+.list:hover
+{
+  box-shadow: inset 8px 2px 5px #898989 ;
+}
 .zibi:hover { 
     color: yellow;
     font-size: 2rem;
