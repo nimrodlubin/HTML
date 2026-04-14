@@ -4,6 +4,7 @@ html {
 
 }
 body{
+    grid-template-columns: 1fr 3fr;
     text-align: center;
 }
 .list {
