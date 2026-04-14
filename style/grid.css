@@ -1,50 +1,20 @@
-html {
-    font-size: 20px;
-    color: #010008 ; /*זה הכוונה לפלטת צבעים עיקבית?*/
-
-}
-body{
-    grid-template-columns: 1fr 3fr;
-    text-align: center;
-}
 .list {
   box-sizing: border-box;
   background-color: cornsilk;
   width: 50%;
   padding: 0.5rem;  
   margin: 1rem;
-
-
   border: #898989;
 } 
-.list:hover
-{
-  box-shadow: inset 8px 2px 5px #898989 ;
+.list:hover {
+    box-shadow: 0px 0px 15px rgba(137, 137, 137, 0.7); 
 }
 .zibi:hover { 
     color: yellow;
     font-size: 2rem;
     background-color: blue;
-    /* text-align: center; למה זה לא עובד? */
 }
-table,thead,tr,th,td {
-    border: 2px solid black;
-    border-collapse: collapse;
-    background-color: aqua;
-    
-    color: grey;
-    text-align: center;
-    margin: auto;
-    padding: auto;
-}
-tr,td,th{
-    padding: 2rem;
-    margin:1rem;
-}
-th{
-    font-size: 30px;
-    color: blue;
-}
+
 
 
 
